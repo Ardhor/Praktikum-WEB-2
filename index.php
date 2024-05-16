@@ -23,7 +23,6 @@
         <div id="page-content-wrapper">
             <?php include "components/nav.php"?>
             <div class="container-fluid px-4">
-                <div class="row g-3 my-2">
                     <?php include "routes.php"?>
                 </div>
 
