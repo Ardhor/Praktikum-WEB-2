@@ -26,6 +26,15 @@
         case "karyawan":
             include "pages/karyawan/karyawan.php";
             break;
+        case "karyawantambah":
+            include "pages/karyawan/karyawantambah.php";
+            break;
+        case "karyawanhapus":
+            include "pages/karyawan/karyawanhapus.php";
+            break;
+        case "karyawanubah":
+            include "pages/karyawan/karyawanubah.php";
+            break;
         default:
             include "pages/404.php";
     }
